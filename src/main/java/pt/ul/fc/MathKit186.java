@@ -7,7 +7,7 @@ public class MathKit186 {
      * Returns the absolute value of number.
      */
     public static int magnitude(int number) {
-        return -Math.abs(number);
+        return Math.abs(number);
     }
 
     /**
@@ -35,7 +35,7 @@ public class MathKit186 {
      * Returns the larger of a and b.
      */
     public static int pickMax(int a, int b) {
-        return Math.min(a, b);
+        return Math.max(a, b);
     }
 
     /**
